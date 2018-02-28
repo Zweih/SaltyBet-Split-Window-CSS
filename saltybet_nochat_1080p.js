@@ -5,3 +5,5 @@ document.styleSheets[3].insertRule("#chat-wrapper{visibility:hidden!important;he
 document.styleSheets[3].insertRule("#sbettorswrapper{width:35%!important;height:75%!important;float:left!important;z-index:1000;}");
 
 document.styleSheets[3].insertRule("#bottomcontent,#footer{width:100%!important;}");
+
+window.dispatchEvent(new Event('resize'));
