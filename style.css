@@ -1,0 +1,21 @@
+@-moz-document domain(saltybet.com) {
+    #stream {
+        max-width: 65% !important;
+        height: 75% !important;
+    }
+    #chat-wrapper {
+        visibility: hidden !important;
+        height: 0px !important;
+        width: 0px !important;
+    }
+    #sbettorswrapper {
+        width: 35% !important;
+        height: 75% !important;
+        float: left !important;
+        z-index: 1000;
+    }
+    #bottomcontent,
+    #footer {
+        width: 100% !important;
+    }
+}
